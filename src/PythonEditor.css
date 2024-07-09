@@ -1,0 +1,45 @@
+/* PythonEditor.css */
+
+.python-editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .editor-container {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .button-container {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  .run-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .output-container {
+    margin-top: 20px;
+  }
+  
+  .output-header {
+    margin-bottom: 10px;
+  }
+  
+  .output-text {
+    background: #f4f4f4;
+    padding: 10px;
+    overflow: auto;
+    max-height: 200px;
+    white-space: pre-wrap;
+  }
+  

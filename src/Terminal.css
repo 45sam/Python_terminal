@@ -1,0 +1,46 @@
+.python-editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.editor-container {
+  flex-grow: 1;
+  border: 1px solid #ddd;
+}
+
+.button-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.run-button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.output-container {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+.output-header {
+  font-size: 18px;
+  margin: 0;
+}
+
+.output-text {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.output-text img {
+  max-width: 100%;
+  height: auto;
+}
